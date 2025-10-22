@@ -31,7 +31,7 @@ public class Activity1 extends AppCompatActivity {
         });
 
         if(getIntent().hasExtra("com.example.mobilecourseproject.PLACEHOLDER")) {
-            TextView tv = findViewById(R.id.textView);
+            TextView tv = findViewById(R.id.tietotekniikkaTextView);
             String text = getIntent().getExtras().getString("com.example.mobilecourseproject.PLACEHOLDER");
             tv.setText(text);
         }

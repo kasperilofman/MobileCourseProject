@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         activityTV2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), Activity1.class);
+                Intent startIntent = new Intent(getApplicationContext(), Activity2.class);
                 startIntent.putExtra("com.example.mobilecourseproject.PLACEHOLDER", "Kuljetusalan ammattilainen");
                 startActivity(startIntent);
             }
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         activityTV3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), Activity1.class);
+                Intent startIntent = new Intent(getApplicationContext(), Activity3.class);
                 startIntent.putExtra("com.example.mobilecourseproject.PLACEHOLDER", "Urheilija");
                 startActivity(startIntent);
             }
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         activityTV4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), Activity1.class);
+                Intent startIntent = new Intent(getApplicationContext(), Activity4.class);
                 startIntent.putExtra("com.example.mobilecourseproject.PLACEHOLDER", "Tekijä");
                 startActivity(startIntent);
             }
