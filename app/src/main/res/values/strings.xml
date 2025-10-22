@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">MobileCourseProject</string>
+    
+    <string-array name="items">
+        <item>Koodauskielet</item>
+        <item>Kokemus</item>
+        <item>Taidot</item>
+        <item>Projektit</item>
+        <item>Kandidaatintyöni</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Python, C, Java, Javascript, HTML, CSS</item>
+        <item>Yli neljän vuoden opiskelijan kokemus</item>
+        <item>Ohjemistotuotanto, Versionhallinta, Front-End, Back-End, Full-Stack, Mobiili</item>
+        <item>Muutamia kouluprojekteja</item>
+        <item>Aihe: Logistiikkatietojärjestelmän käyttöönotto logistiikka-alan yrityksessä - kuljettajan näkökulma</item>
+    </string-array>
+
 </resources>
